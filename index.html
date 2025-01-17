@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Las Charras Web</title>
+        <style type="text/css">
+            * { margin:0;
+                box-sizing: border-box;
+                }
+            header { background-image: url(arriba.jpg);
+              
+                width: 100%;
+                height: 400px; 
+            
+                display: flex;
+                justify-content: center;
+                align-items: center;}
+            #titular { text-align: center; }
+            #titular h1 {color:palegoldenrod;
+                    text-shadow: 2px 3px 8px black;
+                    font-size: 8em;}
+            #titular h2 {color: beige;
+                    text-shadow: 3px 3px 9px black;
+                    }
+            nav {
+                background-color: black;
+                color: whitesmoke; 
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                padding: 10px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            nav a { color: whitesmoke;
+                    text-decoration: double;}
+            nav a:hover { color:bisque;
+                        font-weight: bold;
+                        text-shadow: 4px 4px 6px whitesmoke;}
+            
+            #contenedor-historia { 
+                            
+                            display: flex;
+                             }
+            #contenedor-historia #izq {width: 50%;}
+            #contenedor-historia #der {width: 50%; text-align: left;}
+            #contenedor-historia #izq img { width: 50%;}
+            #contenedor-historia {
+                 padding: 30px;
+                    background-color: blanchedalmond;
+                    color: grey; }
+            section#quienes-somos {
+                    padding: 30px;
+                    text-align: center;
+                    background-color: blanchedalmond;
+                    color: black;
+            }
+            #contenedor-historia h1 {color:black;
+                }
+            #opinion { text-align: center;
+                    
+                        }
+            #contendor-opinion {
+                display: flex;
+                background-color: white;
+                text-align: center;
+                box-shadow: 10px 10px 5px black;
+            }
+            .vestido { 
+                    width: 40%;
+                    box-shadow: 5px 5px 5px antiquewhite;
+
+            }
+            .vestido img {
+                    border-radius: 50%;
+                    width: 50%;
+                    box-shadow: 10px 10px 10px black;
+            }
+            footer {
+                background-color: grey;
+                color:white;
+                padding: 20px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+        
+            footer .caja-inferior { width: 33%;
+                                text-align: center;
+                                padding: 10px;
+                                
+                                padding: 10px;}
+            
+        </style>
+    </head>
+<body>
+    <header>
+        <div id="titular">
+        <h1>Las Charras Web</h1>
+        <h2>La tienda de siempre, en casa</h2>
+        </div>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Quienes somos</a>
+        <a href="#">Tienda</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <section id="quienes-somos">
+        <h1 class="titular">
+            Quienes Somos
+        </h1>
+        <div id="contenedor-historia">
+            <div id="izq">
+                <img src="quienes somos.jpg"> 
+            </div>
+            <div id="der">
+                <h1>Nuestra historia </h1>
+                <p>Nuestra tienda ha crecido junto a la comunidad, convirtiéndose en un referente de moda en La Mancha. Desde nuestros inicios, hemos trabajado con la filosofía de ofrecer prendas de alta calidad a precios accesibles, siempre con un enfoque en la satisfacción del cliente. A lo largo de los años, hemos cultivado relaciones duraderas con nuestros clientes, quienes nos han acompañado en este viaje, apoyando nuestra visión de hacer de Modas Angely "Las Charras" más que una simple tienda de ropa: un lugar donde cada visitante se siente como en casa.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="opinion">
+         <h2 class="titulo">Nuestr@s clientes</h2>
+            <div id="contendor-opinion">
+                <div class="vestido">
+                    <img src="vestido azul.jpg">
+                    <p>
+                     "Siempre encuentro lo mejor para cada ocasión"
+                    </p>
+
+                </div>
+                <div class="vestido">
+                    <img src="sudadera negra.jpg">
+                    <p>
+                      "Las prendas más cómodas"  
+                    </p>
+
+                </div>
+                <div class="vestido">
+                    <img src="vestido rosa.jpg">
+                    <p>
+                        "Siempre me aconsejan para todos los eventos, y SIEMPRE aciertan"
+                    </p>
+
+                </div>
+            </div>
+           
+    </section>
+    <footer>
+        <div class="caja-inferior">
+            <h2>Enlaces</h2>
+            <a href="https://www.facebook.com/profile.php?id=100077927271425&sk=photos&locale=es_ES">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="https://www.instagram.com/modasangely.lascharras/">Instagram</a>
+        </div>
+        <div class="caja-inferior">
+            <h2>Estamos en</h2>
+            <a href="https://www.google.es/maps/place//data=!4m2!3m1!1s0xd68fd498bffd1c1:0xe2e41f5161074f50?sa=X&ved=1t:8290&ictx=111">C. Melquiades Álvarez, 14, 13710 Argamasilla de Alba, Ciudad Real</a>
+        </div>
+        <div class="caja-inferior">
+            <h2>Email</h2>
+            <p>lascharras@gmail.com</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
